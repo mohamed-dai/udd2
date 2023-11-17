@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#downloadButton {
+  float: left;
+}
+
+#recorded {
+  width: 100vw;
+  height: 100vh;
+  object-fit: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.canvas {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
